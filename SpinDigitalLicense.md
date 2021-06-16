@@ -9,7 +9,7 @@ The license initialization and synchronization requires an internet connection.
 ## __Demo License__
 For testing purposes, an evaluation (demo) license
 
-  > * __Entitilement ID:__ ea08c92c-cb40-4482-b188-c5bf02c2018f
+  > * __Entitilement ID:__ 06d5698c-122f-43bf-877a-afb9086872d3
   > * __Customer ID:__     4605c9f6-0fa8-40be-b9f3-016048c70f2b
 
 is provided free-of-charge but with some restrictions on the supported features:
@@ -31,7 +31,7 @@ The instructions for initializing the license are provided below:
 2. Open the _Windows PowerShell_ or  _Command Prompt_ with the __Administrator Privileges__
 3. Go the directory of _lservrc_ and the _spinlicensetool_rms.exe_ and execute the following command:
 
-   `.\spinlicensetool_rms.exe --init --lease sync --eid ea08c92c-cb40-4482-b188-c5bf02c2018f --customer 4605c9f6-0fa8-40be-b9f3-016048c70f2b`
+   `.\spinlicensetool_rms.exe --init --lease sync --eid 06d5698c-122f-43bf-877a-afb9086872d3 --customer 4605c9f6-0fa8-40be-b9f3-016048c70f2b`
 
    This command will create a configuration file  _sntlcloudp_configuration_spindigitalvideotechnologiesgmbh.xml_ and update the _lservrc_ file with the actual license information.
 4. Now you would be able to use the HEVC decoder within the Unity plugin.
