@@ -5,7 +5,7 @@ Within the Immersify.eu project we developed a Unity3D wrapper for the Spin-Digi
 Find out how to create your Immersify License [here](SpinDigitalLicense.md)
 
 ## Working in the Editor:
-To use the license in the Unity3D editor, the following file has to be put inside the Unity3D installation directory (e.g. C:\Program Files\Unity\Editor) and additionally to the Unity Project's Plugin folder (relative path is Assets\Immersify\Plugins\x86_64):
+To use the license in the Unity3D editor, the following file has to be put inside the Unity3D (Unity.exe) installation directory (e.g. C:\Program Files\Unity\Editor) and additionally to the Unity Project's Plugin folder (relative path is Assets\Immersify\Plugins\x86_64):
 -	lservrc
 
 All required DLLs are already placed in the projects plugin directory (Assets\Immersify\Plugins\x86_64).
