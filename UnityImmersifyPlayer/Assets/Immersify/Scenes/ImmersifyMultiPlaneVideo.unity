@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _videoPathType: 1
-  _filename: D:/git/Immersify/Videos/GreatPyramid/scene02_1920_30_250000.hevc
+  _filename: C:\Users\admin\Downloads\testinput.mp4
   _framerate: 30
   _loopVideo: 0
   _pauseAtStart: 0
@@ -337,7 +337,7 @@ MonoBehaviour:
   _maxQueue: 16
   _clampTextures: 0
   _shouldLog: 0
-  _chromaSubsampling: 1
+  _chromaSubsampling: 0
   processVideoTime: 1
   _maxCatchUpFrames: 1
 --- !u!23 &212394564
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _videoPathType: 1
-  _filename: D:/git/Immersify/Videos/GreatPyramid/scene01_1920_30_250000.hevc
+  _filename: C:\Users\admin\Downloads\testinput.mp4
   _framerate: 30
   _loopVideo: 0
   _pauseAtStart: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
   _maxQueue: 16
   _clampTextures: 0
   _shouldLog: 0
-  _chromaSubsampling: 1
+  _chromaSubsampling: 0
   processVideoTime: 1
   _maxCatchUpFrames: 1
 --- !u!1 &513270914

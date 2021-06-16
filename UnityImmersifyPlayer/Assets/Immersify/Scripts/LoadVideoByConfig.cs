@@ -28,7 +28,14 @@ public class LoadVideoByConfig : MonoBehaviour
 		}
 
 		Debug.Log("Loading Video via Plugin " + (_config.AudioClip != null ? "with" : "without") + " audio.");
-		_videoPlugin.InitializePlayer(_config.videoFile, _config.videoPathType, _config.videoFramerate, _config.AudioClip, _config.maxQueue, _config.stereoMode, _config.invertLeftRight, _config.videoIsUpsideDown, _pauseAtStart, _loopVideo);
-		_videoPlugin.Play();
-	}
+        if (System.IO.File.Exists(_config.videoFile))
+        {
+		    _videoPlugin.InitializePlayer(_config.videoFile, _config.videoPathType, _config.videoFramerate, _config.AudioClip, _config.maxQueue, _config.stereoMode, _config.invertLeftRight, _config.videoIsUpsideDown, _pauseAtStart, _loopVideo);
+            _videoPlugin.Play();
+        }
+        else
+        {
+            Debug.Log("The file \"" + _config.videoFile + "\" does not exist");
+        }
+    }
 }

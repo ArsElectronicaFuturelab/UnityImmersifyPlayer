@@ -53,5 +53,8 @@ crashlytics-build.properties
 # Spin License Files
 /Assets/Immersify/Plugins/x86_64/lservrc
 /Assets/Immersify/Plugins/x86_64/lservrc.meta
+/Assets/Immersify/Plugins/x86_64/licenseconfig.txt
+/Assets/Immersify/Plugins/x86_64/
+/Assets/Immersify/Plugins/x86_64/licenseconfig.txt.meta
 /Assets/Immersify/Plugins/x86_64/*.udb
 /Assets/Immersify/Plugins/x86_64/*.udb.meta

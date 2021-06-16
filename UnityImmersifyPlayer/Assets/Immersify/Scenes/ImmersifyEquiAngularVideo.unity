@@ -1165,11 +1165,8 @@ MonoBehaviour:
   networkFrameDelay: 2
   vrpnHost: 127.0.0.1
   videoPathType: 1
-  videoFile: D:\git\Immersify\Videos\EquiAngularCubemap\Pandarama_11904x7936_24_420_10b_cmp_50-75mpbs.hevc
-  videoWidth: 11904
-  videoHeight: 7936
+  videoFile: C:\Users\admin\Downloads\testinput.mp4
   videoFramerate: 24
-  chromaSubsampling: 0
   maxQueue: 240
   stereoMode: 0
   invertLeftRight: 0
@@ -1268,14 +1265,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1ad34d2576df73428a8586fc566c6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 0
-  _height: 0
   _videoPathType: 1
   _filename: 
   _framerate: 0
   _loopVideo: 0
   _pauseAtStart: 0
-  _chromaSubsampling: 0
   _stereoMode: 0
   _invertLeftRight: 0
   _videoIsUpsideDown: 0
@@ -1286,6 +1280,7 @@ MonoBehaviour:
   _maxQueue: 1
   _clampTextures: 1
   _shouldLog: 0
+  _chromaSubsampling: 0
   processVideoTime: 1
   _maxCatchUpFrames: 1
 --- !u!114 &8820326188220722063

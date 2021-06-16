@@ -90,7 +90,7 @@ public class ImmersifyPlugin : MonoBehaviour
 	private Texture2D _textureU = null;
 	private Texture2D _textureV = null;
 	[SerializeField, ReadOnly]
-	private ChromaSubsampling _chromaSubsampling = ChromaSubsampling._422;
+	private ChromaSubsampling _chromaSubsampling = ChromaSubsampling._420;
 
 	private TextureFormat _format = TextureFormat.BC4;
 	private CommandBuffer _command;
@@ -406,9 +406,18 @@ public class ImmersifyPlugin : MonoBehaviour
 			{
 				audioClip = _audioSrcVideo.clip;
 			}
+            //TODO Check if file exists, otherwise throw exception (or alternate error handling)
 
-			InitializePlayer(_filename, _videoPathType, _framerate, audioClip, _maxQueue, _stereoMode, _invertLeftRight, _videoIsUpsideDown, _pauseAtStart, _loopVideo);
-			Play(); // initPlayer: true
+            if (System.IO.File.Exists(_filename))
+            {
+                InitializePlayer(_filename, _videoPathType, _framerate, audioClip, _maxQueue, _stereoMode, _invertLeftRight, _videoIsUpsideDown, _pauseAtStart, _loopVideo);
+
+                Play(); // initPlayer: true
+            }
+            else
+            {
+                Debug.Log("The file \"" + _filename + "\" does not exist");
+            }
 		}
 
 		if (_audioSrcBgLoop != null)

@@ -286,8 +286,8 @@ GameObject:
   - component: {fileID: 506848714}
   - component: {fileID: 506848713}
   - component: {fileID: 506848712}
-  - component: {fileID: 506848716}
   - component: {fileID: 506848715}
+  - component: {fileID: 506848716}
   m_Layer: 0
   m_Name: ImmersifyPlayer
   m_TagString: Untagged
@@ -381,11 +381,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _videoPathType: 1
-  _filename: 
-  _framerate: 0
+  _filename: C:\Users\admin\Downloads\testinput.mp4
+  _framerate: 30
   _loopVideo: 0
   _pauseAtStart: 0
-  _stereoMode: 2
+  _stereoMode: 0
   _invertLeftRight: 0
   _videoIsUpsideDown: 0
   _audioSrcVideo: {fileID: 0}
@@ -395,7 +395,7 @@ MonoBehaviour:
   _maxQueue: 16
   _clampTextures: 0
   _shouldLog: 0
-  _chromaSubsampling: 1
+  _chromaSubsampling: 0
   processVideoTime: 1
   _maxCatchUpFrames: 1
 --- !u!1 &513270914
@@ -645,7 +645,7 @@ MonoBehaviour:
   networkFrameDelay: 2
   vrpnHost: 127.0.0.1
   videoPathType: 1
-  videoFile: D:\git\Immersify\Videos\GreatPyramid\scene01_1920_30_250000.hevc
+  videoFile: 
   videoFramerate: 30
   maxQueue: 16
   stereoMode: 0
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64264c71cadc77845924c12585a8ce31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _immersifyPlugin: {fileID: 506848716}
+  _immersifyPlugin: {fileID: 0}
   _slider: {fileID: 0}
 --- !u!114 &1530732166
 MonoBehaviour:
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044f36c3d1ecd714cbb8a074a8086cc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _videoPlugin: {fileID: 506848716}
+  _videoPlugin: {fileID: 0}
   _pauseAtStart: 0
   _loopVideo: 0
 --- !u!4 &1971743999
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f9cd0088e8e0f49a1251153ba9cc6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _immersifyPlugin: {fileID: 506848716}
+  _immersifyPlugin: {fileID: 0}
   _uiText: {fileID: 2039701545}
   _fpsUpdateInterval: 0.5
 --- !u!114 &2039701545

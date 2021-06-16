@@ -701,7 +701,7 @@ MonoBehaviour:
   _maxQueue: 1
   _clampTextures: 0
   _shouldLog: 0
-  _chromaSubsampling: 1
+  _chromaSubsampling: 0
   processVideoTime: 1
   _maxCatchUpFrames: 1
 --- !u!82 &917525132
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   networkFrameDelay: 2
   vrpnHost: 127.0.0.1
   videoPathType: 1
-  videoFile: D:\git\Immersify\Videos\GreatPyramid\scene01_1920_30_250000.hevc
+  videoFile: C:\Users\admin\Downloads\testinput.mp4
   videoFramerate: 30
   maxQueue: 120
   stereoMode: 2
