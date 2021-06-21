@@ -23,7 +23,7 @@ The source and the assets are provided without any warranty under the MIT licens
 The Unity project uses files from third parties as the "TextMesh Pro" and the "Oculus" Plugin.
 
 ## Expample Videos
-Videos (1080p, 4K, and 8K) to test your project with can be found under the following link: https://drive.google.com/drive/folders/1XalGyZTWmooW3ZzM1K4COaJelH7jCBgd?usp=sharing
+Videos (1080p, 4K, and 8K), including the audio file, to test your project with can be found under the following link: https://drive.google.com/drive/folders/1XalGyZTWmooW3ZzM1K4COaJelH7jCBgd?usp=sharing
   
 ## Disclaimer
 The IMMERSIFY project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 762079. The IMMERSIFY project does not receive any external funding for the creation and maintenance of this project from advertisers or any other commercial interest.
