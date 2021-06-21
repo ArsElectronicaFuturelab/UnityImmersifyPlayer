@@ -16,8 +16,6 @@ is provided free-of-charge but with some restrictions on the supported features:
   - Max. decoding resolution: 8192×8192 pixels
   - Chroma format and bit-depth: 4:2:0, 10-bit
   - Watermark (Spin Digital logo) on the decoded pictures
-Cancel changes
-This evaluation license is valid until the end of 2020. For the further releases of the Unity plugin with an updated _spinlib_rms.dll_, a new evaluation license will be provided.
 
 ### __License initialization__
 To initialize the license, you will need:
